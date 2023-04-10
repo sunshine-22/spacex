@@ -1,0 +1,31 @@
+.rocket-Header{
+    
+    width: 100%;
+    top:0;
+    z-index: 100;
+    background-color: black;
+
+}
+
+.rocket-Scroll-Header{
+    position:fixed;
+    width: 100%;
+    top:0;
+    z-index: 100;
+    background-color: black;
+
+}
+
+.rocket-filterarea{
+    margin: 2%;
+   
+    width: 200px;
+    height: 55px;
+    margin-left: auto;
+    
+}
+
+.rocket-area{
+    display: flex;
+    flex-wrap: wrap;
+}

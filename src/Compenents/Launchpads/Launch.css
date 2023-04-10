@@ -1,0 +1,25 @@
+.launch-heading{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.launch-cardarea{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-image{
+    width: 200px;
+    height: 200px;
+    border-radius:"10px"
+}
+
+.card-text{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+            line-clamp: 5; 
+    -webkit-box-orient: vertical;
+}

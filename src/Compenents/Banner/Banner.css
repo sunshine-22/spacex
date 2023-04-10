@@ -1,0 +1,56 @@
+.banner-outline{
+    height: 90vh;
+    background-image: url("https://thumbs.gfycat.com/AdmiredDigitalHarrier-max-1mb.gif");
+}
+
+.banner-imageoutline{
+ 
+    margin: 5%;
+    height: 65vh;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.banner-launchdetails{
+    color: white;
+    margin-top:60%;
+    font-weight: 400;
+    font-size: 25px;
+}
+.banner-launchdettext{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.banner-readmorebutton{
+    border:1px solid white;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.banner-readmorebutton:hover{
+    border:1px solid white;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: whitesmoke;
+   
+}
+
+.banner-redirect{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding:6px
+}
+.banner-redirect:hover{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding:6px
+}

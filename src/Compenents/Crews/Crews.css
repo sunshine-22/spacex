@@ -1,0 +1,17 @@
+.crew-text{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 3%;
+}
+
+.crew-display{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.crew-image{
+    width: 250px;
+    height: 270px;
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+
+.logosize{
+    width: 170px;
+    height: 35px;
+}
+.header-texts{
+    margin-top:4%;
+    margin: 3%;
+    font-size: 17px !important ;
+    font-weight: 700 !important ;
+    color: white !important
+} 
+.header-texts:hover{
+    margin-top:4%;
+    margin: 3%;
+    font-size: 17px;
+    font-weight: 700;
+    color:blue !important
+    
+}
+
+.navbar-buttoncolor{
+    color: white !important;
+    background-color: beige !important;
+}

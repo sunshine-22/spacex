@@ -1,0 +1,16 @@
+.Home-Header{
+    
+    width: 100%;
+    top:0;
+    z-index: 100;
+    background-image: url("https://thumbs.gfycat.com/AdmiredDigitalHarrier-max-1mb.gif");
+}
+
+.Home-Scroll-Header{
+    position:fixed;
+    width: 100%;
+    top:0;
+    z-index: 100;
+    background-color: black;
+
+}
