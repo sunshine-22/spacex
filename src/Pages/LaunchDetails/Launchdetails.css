@@ -1,0 +1,33 @@
+.launch-outline{
+   
+    margin: 1%;
+    height: 85vh;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+
+.launch-descriptionpage{
+    
+    margin: 1%;
+    height: 83vh;
+}
+
+.launch-logoarea{
+    
+    width: 100px;
+    height: 100px;
+}
+
+.launch-image{
+    width: 100px;
+    height: 100px;
+}
+
+.launch-imageoutline{
+    margin: 1%;
+    margin-top: 10%;
+    height: 50%;
+    width: 98%;
+    border-radius: 10px;
+
+}

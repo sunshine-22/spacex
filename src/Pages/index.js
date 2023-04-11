@@ -5,3 +5,5 @@ export {default as Rocket} from "./Rockets/Rockets"
 export {default as Launches} from "./Launches/Launches"
 
 export {default as History} from "./History/History"
+
+export {default as LaunchDetails} from "./LaunchDetails/Launchdetails"

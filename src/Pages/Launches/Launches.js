@@ -4,10 +4,12 @@ import { useState,useEffect } from 'react'
 import Header from '../../Compenents/Header/Header'
 import Form from 'react-bootstrap/Form';
 import { Container } from 'react-bootstrap';
-
+import { useNavigate } from 'react-router-dom';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 export default function Launches() {
+
+  const navigate = useNavigate()
   
   const [header,setheader]=useState("rocket-Header")
 
@@ -81,8 +83,8 @@ export default function Launches() {
                    {
                     launch_data.map((data,key) => {
                         return(
-                            <Card style={{ width: '18rem',margin: "1rem",borderRadius:"10px",boxShadow:"1px 2px 2px 2px #888888",cursor:"pointer" }} key={key}>
-                            <Card.Img variant="top" src={data.links.patch.large} className='launch-image' />
+                            <Card style={{ width: '18rem',margin: "1rem",borderRadius:"10px",boxShadow:"1px 2px 2px 2px #888888",cursor:"pointer" }} key={key} onClick={()=>{navigate(`/launches/${data.id}`)}}>
+                            <Card.Img variant="top" src={data.links.patch.large} className='launch-imagess' />
                             <Card.Body>
                               <Card.Title>{data.name}</Card.Title>
                               <Card.Text className='card-text'>
