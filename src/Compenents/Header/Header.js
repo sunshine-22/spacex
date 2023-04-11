@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <Navbar  expand="lg">
     <Container>
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="/">
         <img src={Logo} className='logosize'></img>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className='navbar-buttoncolor' />
